@@ -37,7 +37,7 @@ int main () {
 		}
 	}
 
-	cout << "Print nuumbers of Matrix B" << endl;
+	cout << "Print numbers of Matrix B" << endl;
 	for (int x=0; x<M; x++)		//Цикл для задания чисел во второй матрице
 	{
 		for (int y=0; y<K; y++)
