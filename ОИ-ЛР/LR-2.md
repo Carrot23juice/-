@@ -24,10 +24,10 @@
 using namespace std;
 
 int main () {
-	const int N = 4,  M = 2, K = 3;		//Объявление количества сторк и столбцов
+	const int N = 3,  M = 3, K = 4;		//Объявление количества строк и столбцов
 	int A[N][M], B[M][K], C[N][K];		//Объявление матриц
 
-	cout << "Write Values of Matrix A" << endl;
+	cout << "Print numbers of Matrix A" << endl;
 	for (int i=0; i<N; i++)		//Цикл для задания чисел в первой матрице
 	{
 		for (int j=0; j<M; j++)
@@ -37,7 +37,7 @@ int main () {
 		}
 	}
 
-	cout << "Write Values of Matrix B" << endl;
+	cout << "Print nuumbers of Matrix B" << endl;
 	for (int x=0; x<M; x++)		//Цикл для задания чисел во второй матрице
 	{
 		for (int y=0; y<K; y++)
@@ -99,7 +99,9 @@ int main () {
 
 Результат работы программы:
 
-![l_2_raw_input](https://user-images.githubusercontent.com/99655386/172692508-0fedb5d9-a2ba-4b83-a88d-96e5a41121fb.png)
+![Снимок](https://user-images.githubusercontent.com/99655386/172993228-943d9a89-9c55-482c-9c2c-4451d54cfbab.PNG)
 
-![l_2_result](https://user-images.githubusercontent.com/99655386/172692565-3f9ffe1a-12bd-48dc-ba74-874b06062a73.png)
+![22](https://user-images.githubusercontent.com/99655386/172993255-6bd1e804-5022-4fe1-ae0b-1c2a937205f1.PNG)
+
+
 
